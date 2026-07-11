@@ -40,4 +40,4 @@ Smart Lender is a Machine Learning-based web application that predicts whether a
 - Email Notifications
 
 ## Author
-Your Name
+Attim Siva Rani
