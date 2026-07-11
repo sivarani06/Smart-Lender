@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Lender</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        🏦 Smart Lender
+
+    </div>
+
+</header>
+
+<section class="hero">
+
+    <h1>Apply for a Loan</h1>
+
+    <p>Quick & Easy Loan Approval Prediction</p>
+
+</section>
+
+<div class="form-card">
+
+<form action="/predict" method="POST">
+
+<h2>Personal Information</h2>
+
+<div class="grid">
+
+<div>
+
+<label>Gender</label>
+
+<select name="Gender">
+
+<option>Male</option>
+
+<option>Female</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Married</label>
+
+<select name="Married">
+
+<option>Yes</option>
+
+<option>No</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Dependents</label>
+
+<select name="Dependents">
+
+<option>0</option>
+
+<option>1</option>
+
+<option>2</option>
+
+<option>3+</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Education</label>
+
+<select name="Education">
+
+<option>Graduate</option>
+
+<option>Not Graduate</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Self Employed</label>
+
+<select name="Self_Employed">
+
+<option>Yes</option>
+
+<option>No</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Property Area</label>
+
+<select name="Property_Area">
+
+<option>Urban</option>
+
+<option>Semiurban</option>
+
+<option>Rural</option>
+
+</select>
+
+</div>
+
+</div>
+
+<h2>Loan Details</h2>
+
+<div class="grid">
+
+<div>
+
+<label>Applicant Income</label>
+
+<input type="number" name="ApplicantIncome" placeholder="Applicant Income">
+
+</div>
+
+<div>
+
+<label>Coapplicant Income</label>
+
+<input type="number" name="CoapplicantIncome" placeholder="Coapplicant Income">
+
+</div>
+
+<div>
+
+<label>Loan Amount</label>
+
+<input type="number" name="LoanAmount" placeholder="Loan Amount">
+
+</div>
+
+<div>
+
+<label>Loan Amount Term</label>
+
+<input type="number" value="360" name="Loan_Amount_Term">
+
+</div>
+
+<div>
+
+<label>Credit History</label>
+
+<select name="Credit_History">
+
+<option value="1">Good (1)</option>
+
+<option value="0">Bad (0)</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="submit-area">
+
+<button type="submit">
+
+Predict Loan
+
+</button>
+
+</div>
+
+</form>
+
+</div>
+
+<footer>
+
+🔒 Safe & Secure Processing
+
+</footer>
+
+</body>
+
+</html>
