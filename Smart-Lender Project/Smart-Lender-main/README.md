@@ -52,7 +52,7 @@ Smart-Lender/
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/rahulkumar-del/Smart-Lender.git
+git clone https://github.com/sivarani06/Smart-Lender.git
 
 cd Smart-Lender
 
