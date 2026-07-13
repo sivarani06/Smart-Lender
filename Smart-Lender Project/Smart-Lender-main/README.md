@@ -1,4 +1,4 @@
-# S# 🏦 Smart Lender – Loan Approval Prediction System
+🏦 Smart Lender – Loan Approval Prediction System
 
 ## 📖 Overview
 
