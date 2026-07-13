@@ -71,6 +71,6 @@ http://127.0.0.1:5000
 
 ## 👨‍💻 Author
 
-**Rahul Kumar**
+**Attim Siva Rani**
 
-GitHub: https://github.com/rahulkumar-delmart-Lender
+GitHub: https://github.com/sivarani06/Smart-Lender.git
